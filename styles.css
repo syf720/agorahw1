@@ -1,0 +1,118 @@
+#container{
+    background-color:white;
+}
+/* # is for id. id only indicates one tag */
+
+.top{
+    width: 100vw;
+    height: 5vw;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+#img-container{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-pane{
+    text-align: center;
+    width: 50%;
+    height: 75vh;
+    background-color: #099dfd;
+}
+
+.right-pane{
+    background-color: white;
+    width: 50%;
+    height: 75vh;
+    flex: 2;
+
+}
+/* . is for class. class can indicate a group of tags*/
+
+
+.login-container{
+    margin-top: 45%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#headingText{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#highlighted{
+    color: #099dfd;
+}
+
+input{
+    margin-top: 10px;
+    width: 90%;
+    font-size: .9rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+.submitButton{
+    background-color: #099dfd;
+    width: 7vw;
+    height: 3vh;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#illustration{
+    max-width: 75%;
+    max-height: 75%;
+}
+
+#illustrationContainer{
+    width: 35vw;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 10vh;
+}
+
+#bottom{
+    font-size: 1.4rem;
+    color: white;
+}
+
+#flexContainer{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    max-height: 75%;
+   
+}
+#flexContainerWhole{
+    display: flex;
+    flex-direction: column; 
+}
+
+#rectangleDisplay{
+    margin: auto;
+    max-width: 75%;
+    max-height: 75%;
+    box-shadow: 10px 10px 10px 5px rgb(172, 172, 172);
+}
